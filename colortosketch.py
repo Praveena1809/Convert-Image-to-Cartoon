@@ -1,7 +1,7 @@
 import cv2
 
 # reading the image
-img = cv2.imread('girl.jpg', 1)
+img = cv2.imread('dog.jpg', 1)
 # converting the image to grayscale
 img_gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 # inverting the image
